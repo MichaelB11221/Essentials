@@ -1,0 +1,114 @@
+~  choco search gaming
+Chocolatey v2.4.1
+3dmark 2.6.6238 [Approved] Downloads cached for licensed users - Possibly broken for FOSS users (due to original download location changes by vendor)
+action 4.43.1 [Approved] Downloads cached for licensed users
+aerozoom 4.0.0.7 [Approved]
+aliengame 0.2.31 [Approved] Downloads cached for licensed users
+amiduos 2.0.8.8511 [Approved]
+antimicro 2.24.0 [Approved]
+antimicro.install 2.24.0 [Approved] Downloads cached for licensed users
+antimicro.portable 2.23.0 [Approved] Downloads cached for licensed users
+app-shop 1.0.31 [Approved] Downloads cached for licensed users - Possibly broken for FOSS users (due to original download location changes by vendor)
+blobby2 1.0.3 - Possibly broken
+bluestacks 5.21.600.1019 [Approved] Downloads cached for licensed users
+borderlessgaming 9.5.6 [Approved] Downloads cached for licensed users
+consoleclassix 4.30.0 [Approved] Downloads cached for licensed users
+curse-voice 1.0.0 [Approved] - Possibly broken
+directx 9.29.1974.20210222 [Approved] Downloads cached for licensed users
+discord 1.0.9173 [Approved]
+discord.install 1.0.9173 [Approved]
+discord-canary 0.0.259 [Approved] Downloads cached for licensed users - Possibly broken for FOSS users (due to original download location changes by vendor)
+diskdefragtouch 8.0.12 [Approved] Downloads cached for licensed users - Possibly broken for FOSS users (due to original download location changes by vendor)
+dlss-updater 2.2.3 [Approved]
+dolphin 2412.0.0 [Approved]
+dosbox-x 2024.3.1 [Approved] Downloads cached for licensed users
+ea-app 13.356.0.5869 [Approved] Downloads cached for licensed users
+emulationstation 2.0.1.1 [Approved]
+emulationstation.install 2.0.1.1 [Approved] Downloads cached for licensed users
+emulationstation.portable 2.0.1.1 [Approved] Downloads cached for licensed users
+eve-online 1.6.4 [Approved] Downloads cached for licensed users
+fafarunner 1.0.3.368 [Approved] Downloads cached for licensed users
+final-fantasy-xiv 1.0.0.2 [Approved]
+Firefox 133.0.0 [Approved]
+FirefoxESR 128.5.1 [Approved]
+fpsmonitor 5472.0.0 [Approved] Downloads cached for licensed users
+fxsound 1.1.27.20241112 [Approved]
+gamebooster 5.1.38 [Approved] - Possibly broken
+gamesavemanager 3.1.551 [Approved]
+gamevox 1.0.0 [Approved] - Possibly broken
+gamingapp 6.2.0.98 [Approved] Downloads cached for licensed users
+gbm 1.4.0 [Approved]
+geforce-experience 3.28.0.417 [Approved] Downloads cached for licensed users
+gfwlive 3.5.92 - Possibly broken
+glyph-launcher 2.3.304.323744 [Approved] Downloads cached for licensed users
+goggalaxy 2.0.77.22 [Approved]
+goxlr 1.3.3.13001 [Approved] Downloads cached for licensed users - Possibly broken for FOSS users (due to original download location changes by vendor)
+goxlr-driver 5.12.0.2 [Approved] - Possibly broken
+guild-wars 1.0.0.1 [Approved] Downloads cached for licensed users - Possibly broken for FOSS users (due to original download location changes by vendor)
+guild-wars-2 1.0.0.10003 [Approved] Downloads cached for licensed users
+heroic-games-launcher 2.15.2 [Approved]
+heroic-games-launcher.install 2.15.2 [Approved] Downloads cached for licensed users
+heroic-games-launcher.portable 2.15.2 [Approved] Downloads cached for licensed users
+hidhide 1.5.212 [Approved] Downloads cached for licensed users
+higan 1.0.96 [Approved] Downloads cached for licensed users - Possibly broken for FOSS users (due to original download location changes by vendor)
+horizon-modding-tool 2.9.0.1 [Approved] Downloads cached for licensed users
+humble-app 1.1.8.411 [Approved] Downloads cached for licensed users
+hv-ms735-config 1.1.0 [Approved] Downloads cached for licensed users
+ioquake3 1.36.0 [Approved] - Possibly broken
+ioquake3.install 1.36.0 [Approved] Downloads cached for licensed users - Possibly broken for FOSS users (due to original download location changes by vendor)
+ioquake3-data 1.36.0 [Approved] Downloads cached for licensed users - Possibly broken for FOSS users (due to original download location changes by vendor)
+joytokey 7.0.0 [Approved] Downloads cached for licensed users
+launchbox 4.1.0 [Approved] - Possibly broken
+ldtk 1.5.3 [Approved]
+legacy-games-launcher 1.15.0 [Approved] Downloads cached for licensed users
+legendary 0.20.34 [Approved]
+lghub 2024.8.641856 [Approved]
+logicoolgaming 9.2.65 [Approved] Downloads cached for licensed users - Possibly broken for FOSS users (due to original download location changes by vendor)
+logicoolgaming5 5.10.127 [Approved] - Possibly broken
+logitechgaming 9.4.49 [Approved] Downloads cached for licensed users
+logitechgaming5 5.10.127 [Approved] - Possibly broken
+ludusavi 0.27.0 [Approved]
+metropolislauncher 1.2.0 [Approved]
+monogame 3.7.1 [Approved]
+moonlight-qt 6.1.0 [Approved]
+moonlight-qt.install 6.1.0 [Approved]
+moonlight-qt.portable 6.0.1 [Approved]
+mudlet 4.18.5.20240728 [Approved] Downloads cached for licensed users
+mumble 1.5.735 [Approved]
+mupen64plus-qt 1.10.0 [Approved] Downloads cached for licensed users
+Nestopia 1.40.20191010 [Approved] Downloads cached for licensed users
+netch 1.8.7 [Approved]
+nyrna 2.23.0 [Approved]
+openal 2.7.0.20170623 [Approved] Downloads cached for licensed users
+opera-gx 114.0.5282.159 [Approved] Downloads cached for licensed users
+origin 10.5.129.55742 [Approved]
+osu 1.0.0.20170521 [Approved] Downloads cached for licensed users
+overwolf 2.156.0.2 [Approved] - Possibly broken
+parsec 20240209.0.0 [Approved] - Possibly broken
+pcmark8 2.10.901.2024091301
+poi 10.8.0 [Approved]
+PPSSPP 1.18.1 [Approved] Downloads cached for licensed users
+ps-remote-play 6.5.0.8180
+quantumdreams 0.1.20160513 [Approved] Downloads cached for licensed users - Possibly broken for FOSS users (due to original download location changes by vendor)
+quantumshooter 0.1.20160513 [Approved] Downloads cached for licensed users - Possibly broken for FOSS users (due to original download location changes by vendor)
+raidcall 7.3.6 [Approved] - Possibly broken
+redragon-m913 3.1.0 [Approved] Downloads cached for licensed users
+retroarch 1.19.1 [Approved] Downloads cached for licensed users
+scummvm 2.8.1 [Approved] Downloads cached for licensed users
+skifree 1.4.0
+snes9x 1.63.0 [Approved] Downloads cached for licensed users
+splashtop-personal 3.6.600 [Approved] Downloads cached for licensed users
+steam-rom-manager 2.5.29 [Approved] Downloads cached for licensed users
+steelseries-engine 76.0.0 [Approved]
+sunshine 0.23.1 [Approved]
+teamspeak-server 3.13.7 [Approved] Downloads cached for licensed users
+throttlestop 9.5.0 [Approved]
+twitch-bandwidth-tester 1.520.0 [Approved] Downloads cached for licensed users - Possibly broken for FOSS users (due to original download location changes by vendor)
+ubisoft-connect 159.0.0.11374 [Approved] Downloads cached for licensed users
+vigembus 1.22.0 [Approved]
+VisualBoyAdvance 1.7.2 [Approved] Downloads cached for licensed users
+voobly 2.2.5.65001 [Approved] - Possibly broken
+vpinball 10.7.3 [Approved]
+wd-dashboard 4.2.2.5 [Approved] - Possibly broken
+xsplit-broadcaster 4.5.2412.304 [Approved]
+zsnes 1.51.0 [Approved]

@@ -1,0 +1,1 @@
+irm "https://winscript.cc/irm" | iex

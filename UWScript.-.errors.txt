@@ -1,0 +1,103 @@
+Write-Host : The term 'Write-Host' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Windows\Setup\Scripts\UWScript.ps1:68 char:5
++     Write-Host "============================================" -Foregr ...
++     ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Write-Host:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+Write-Host : The term 'Write-Host' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Windows\Setup\Scripts\UWScript.ps1:69 char:5
++     Write-Host "                  UWScript                  " -Foregr ...
++     ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Write-Host:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+Write-Host : The term 'Write-Host' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Windows\Setup\Scripts\UWScript.ps1:70 char:5
++     Write-Host "============================================" -Foregr ...
++     ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Write-Host:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+Write-Host : The term 'Write-Host' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Windows\Setup\Scripts\UWScript.ps1:71 char:5
++     Write-Host ""
++     ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Write-Host:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+Write-Host : The term 'Write-Host' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Windows\Setup\Scripts\UWScript.ps1:72 char:5
++     Write-Host "NO LIABILITY ACCEPTED, PROCEED WITH CAUTION!" -Foregr ...
++     ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Write-Host:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+Write-Host : The term 'Write-Host' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Windows\Setup\Scripts\UWScript.ps1:73 char:5
++     Write-Host ""
++     ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Write-Host:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+Write-Host : The term 'Write-Host' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Windows\Setup\Scripts\UWScript.ps1:79 char:5
++     Write-Host "Main Menu:" -ForegroundColor Yellow
++     ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Write-Host:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+Write-Host : The term 'Write-Host' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Windows\Setup\Scripts\UWScript.ps1:80 char:5
++     Write-Host "1. Software & Apps"
++     ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Write-Host:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+Write-Host : The term 'Write-Host' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Windows\Setup\Scripts\UWScript.ps1:81 char:5
++     Write-Host "2. Privacy & Security"
++     ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Write-Host:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+Write-Host : The term 'Write-Host' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Windows\Setup\Scripts\UWScript.ps1:82 char:5
++     Write-Host "3. Windows Updates"
++     ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Write-Host:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+Write-Host : The term 'Write-Host' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Windows\Setup\Scripts\UWScript.ps1:83 char:5
++     Write-Host "4. Optimize Registry"
++     ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Write-Host:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+Write-Host : The term 'Write-Host' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Windows\Setup\Scripts\UWScript.ps1:84 char:5
++     Write-Host "5. Tasks & Services"
++     ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Write-Host:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+Write-Host : The term 'Write-Host' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Windows\Setup\Scripts\UWScript.ps1:85 char:5
++     Write-Host "6. Power Settings"
++     ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Write-Host:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException

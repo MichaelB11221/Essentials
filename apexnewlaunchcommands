@@ -1,0 +1,20 @@
+1. CVar lobby_max_fps: can be used to change the FPS cap in the lobby and menus. This still defaults to 60 to reduce CPU and GPU usage, but can be increased for players who prefer smoother frame rates. Setting +lobby_max_fps 0 will remove the lobby cap, and the lobby will have the same FPS cap as the rest of the game.
+
+2. Added a launch argument, -no_render_on_input_thread: prevents multithreaded rendering from using the same CPU core as input processing. For players with a high number of CPU cores (min. 6), this can improve the stability of frame rates and input lag, especially if they have a high polling rate mouse or controller. For other players, this option could worsen rendering performance.
+
+3. Added a launch argument +mat_no_stretching 1: prevents all resolution stretching and will always letterbox or pillarbox your monitor to the game’s resolution. Players should be aware that certain aspect ratios with this setting can break UI elements in the game, but this functionality is still useful for some players to replicate their DX11 setup with custom resolutions.
+
+4. "Clamp Mouse Cursor to Game Window" option will now clamp the cursor to the area inside of letterboxing or pillarboxing. Ex. when the game is run using a 16:9 resolution on an ultrawide display. This can be disabled with the launch argument +clip_mouse_to_letterbox 0.
+
+5. Fixed +mat_wide_pillarbox 0 launch argument that can be used to enable stretching when running an ultrawide display
+
+6. Fixed some bugs with VSync behavior in DX12 which led to slightly more unstable frame rates when using Triple-Buffering or a lower framerate limit when using Adaptive V-Sync
+
+7. Significantly improved frame rate stability with texture streaming, especially when Texture Streaming Budget is set to Very Low. (Dev Note: While a lower texture streaming budget reduces VRAM usage, it can also hurt performance because textures need to be loaded and unloaded from the GPU more frequently. “None” is the fastest option for performance, but the second fastest option is most likely the default setting for your GPU.)
+
+8.Slightly improved frame rate stability when using Nvidia Reflex or AMD Anti-Lag 2 in combination with high polling rate mice or controllers and capped FPS
+
+
+
+
++lobby_max_fps 141 -no_render_on_input_thread +mat_no_stretching 1 +clip_mouse_to_letterbox 0 +mat_wide_pillarbox 0 +fps_max 141

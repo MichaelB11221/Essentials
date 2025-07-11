@@ -1,0 +1,19 @@
+Error occured : 
+
+Failures
+ - 17.6.1.24319023 - 17.6.1.24319023 not installed. The package was not found with the source(s) listed.
+ Source(s): 'https://community.chocolatey.org/api/v2/'
+ NOTE: When you specify explicit sources, it overrides default sources.
+If the package version is a prerelease and you didn't specify `--pre`,
+ the package may not be found.
+Please see https://docs.chocolatey.org/en-us/troubleshooting for more
+
+Action that lead to error message response :
+
+ran a choco install command as usual nothing new or anything
+
+Fault (Description) : 
+UNKNOWN
+
+FIX -
+REFRESHENV IN PS WITH ADMINS

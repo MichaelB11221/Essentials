@@ -1,0 +1,28 @@
+Windows Registry Editor Version 5.00
+
+; Register qBittorrentEnhancedPortable for .torrent
+[HKEY_CLASSES_ROOT\.torrent]
+@="qBittorrentEnhancedPortable.torrent"
+"Content Type"="application/x-bittorrent"
+
+[HKEY_CLASSES_ROOT\qBittorrentEnhancedPortable.torrent]
+@="BitTorrent File"
+"FriendlyTypeName"="BitTorrent File"
+
+[HKEY_CLASSES_ROOT\qBittorrentEnhancedPortable.torrent\shell\open\command]
+@="\"D:\\Windows\\Software\\Downloads\\PortableApps\\PortableApps\\PortableApps\\qBittorrentEnhancedPortable\\qBittorrentEnhancedPortable.exe\" \"%1\""
+
+; Register qBittorrentEnhancedPortable for magnet links
+[HKEY_CLASSES_ROOT\magnet]
+@="URL:Magnet Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\magnet\shell\open\command]
+@="\"D:\\Windows\\Software\\Downloads\\PortableApps\\PortableApps\\PortableApps\\qBittorrentEnhancedPortable\\qBittorrentEnhancedPortable.exe\" \"%1\""
+
+; Optional: Register app path for system-wide resolution
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\qBittorrentEnhancedPortable]
+@="qBittorrentEnhancedPortable"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\qBittorrentEnhancedPortable\shell\open\command]
+@="\"D:\\Windows\\Software\\Downloads\\PortableApps\\PortableApps\\PortableApps\\qBittorrentEnhancedPortable\\qBittorrentEnhancedPortable.exe\" \"%1\""

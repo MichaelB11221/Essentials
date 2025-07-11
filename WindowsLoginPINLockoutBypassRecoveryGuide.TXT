@@ -1,0 +1,93 @@
+Windows Login/PIN Lockout Bypass & Recovery Guide
+=================================================
+
+Problem:
+--------
+- Locked out of Windows with errors like:
+  - "This sign-in option is disabled because of failed sign-in attempts or repeated shutdowns"
+  - "Something happened and your PIN isn’t available"
+- PIN setup is broken, password box missing, or login options are greyed out.
+
+Quick Checklist:
+----------------
+- Is this a Local or Microsoft Account?
+- Is BitLocker enabled? (If yes, you need the recovery key—no bypass possible.)
+- Can you reach the login screen, or only Recovery/bootable USB?
+
+Step 1: Try Safe Mode (If Login Screen is Reachable)
+---------------------------------------------------
+1. Hold Shift and click Restart from the login screen power icon.
+2. Go to Troubleshoot > Advanced Options > Startup Settings > Restart.
+3. Press 4 to boot into Safe Mode.
+4. Once in, open Run (Win+R), type: netplwiz
+5. Uncheck "Users must enter a user name and password..."
+6. Or open CMD and run:
+   net user [YourUsername] /active:yes
+7. Reboot and try logging in.
+
+Step 2: Remove Broken PIN (Ngc Folder) via Recovery CMD
+-------------------------------------------------------
+1. Boot into Recovery Mode:
+   - Force shutdown 3x, or boot from Windows install USB.
+   - Go to Troubleshoot > Advanced Options > Command Prompt.
+2. Find your Windows drive letter (it may not be C: in Recovery):
+   - Run: wmic logicaldisk get caption,description,filesystem
+   - Try: dir C:\, dir D:\, dir E:\, etc. Look for "Windows", "Users", etc.
+   - Assume it's F: for this example.
+3. Take ownership and delete the Ngc (PIN) folder:
+   takeown /f F:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\Ngc /r /d y
+   icacls F:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\Ngc /grant administrators:F /t
+   rmdir /s /q F:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\Ngc
+4. Reboot:
+   shutdown -r -t 0
+5. On reboot, you should see the password login or a working PIN setup.
+
+Step 3: Sticky Keys Exploit (If Still Locked Out)
+-------------------------------------------------
+1. Boot from install USB > Shift+F10 for CMD.
+2. Copy CMD to utilman.exe:
+   copy F:\Windows\System32\cmd.exe F:\Windows\System32\utilman.exe
+3. Reboot to login screen.
+4. Press Shift 5x (Sticky Keys) to open admin CMD.
+5. Create a new admin user:
+   net user bypass /add
+   net localgroup administrators bypass /add
+6. Reboot and log into the new "bypass" account.
+
+Step 4: If Ngc Folder Doesn't Exist or Can't Be Accessed
+--------------------------------------------------------
+- If the Ngc folder is missing, the PIN system is already broken.
+- Use the Sticky Keys method above to create a new admin account and regain access.
+
+Step 5: Keyboard Layout Issues in Recovery
+------------------------------------------
+- UK layout: \ is the # key (right of Enter), / is Shift + - (dash).
+- On 60% keyboards, try:
+  - Fn + Enter, Fn + Backspace, Fn + Z, or Alt+92 (if you have a numpad).
+- Or use "cd" commands to navigate folders one at a time.
+
+Step 6: Microsoft Account Logins
+--------------------------------
+- If you forgot your Microsoft account password, reset it at:
+  https://account.live.com/password/reset
+- If you can create a local admin, migrate your files and switch to a local account.
+
+Step 7: BitLocker Warning
+-------------------------
+- If BitLocker is enabled, you must have the recovery key. No bypass is possible.
+
+Troubleshooting Tips:
+---------------------
+- Always use backslashes (\) in CMD, not forward slashes (/).
+- If commands fail, double-check the drive letter and folder paths.
+- If you get "directory does not exist," verify the path step by step with "dir" commands.
+
+Summary:
+--------
+- Delete the Ngc folder to remove broken PIN.
+- Use Sticky Keys exploit to create a new admin if locked out.
+- Always check your keyboard layout in Recovery.
+- For Microsoft accounts, reset password online if needed.
+- BitLocker cannot be bypassed without the recovery key.
+
+Save this guide for future reference!

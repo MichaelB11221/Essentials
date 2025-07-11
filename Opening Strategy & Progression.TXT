@@ -1,0 +1,57 @@
+Opening Strategy & Progression
+So the game has just started and you have no idea what to buy. Generally you do not want to buy a blue item right away. It is typically a good idea to get a red or green item first, or yellow if you're a support. Of course there are some exceptions to certain champions or playstyles. Buying a blue item first, however, will generally put you at a disadvantage on the first fight as the other items tend to bring much more upfront value
+
+As the game progresses it is worth considering purchaseing another item rather than upgrading your current one. If you bought red first, you might want to pick up green next or vice-versa.
+Attack Items
+Bulldozer
+This is rarely worth buying as anything other then a frontline and support is really the only other role that has any reason to get it.
+
+Cauterize
+One of the most important red items in the game.
+
+
+Deft Hands
+A solid item that has very noticible resaults but is ultimately outshined by Cauterize and Wrecker outside of very select champions.
+
+Wrecker
+This is good against heros that have shields which is rather self explanatory, but not as good as Cauterize unless the enemy team has no Support.
+Defense Items
+Blast Shields
+This is like Haven, but for AoE damage instead. Get this if they have at least 3+ champions on their team with consistent AoE damage.
+
+
+Haven
+This is like Blast Shields but for direct damage instead. Get this if they have at least 3+ champions on their team with consistent single target damage.
+
+
+Illuminate
+This is basicly worthless in almost every case.
+
+
+Resilience
+This item reduces the duration of any CC or knockback. Your mileage may vary, but damage reduction will keep you alive longer
+Healing Items
+Kill to Heal
+You heal for (300/600/900) each time you score a kill or assist on an enemy champion. All you have to do is damage them once and you reap the rewards. This is incredibly useful if you tend to hit the enemy a lot, but never kill.
+
+Life Rip
+This will cause your weapons to heal for damage dealt to enemies which is pretty self explanatory. I consider it useful only for champions with big bursts of damage as low damage weapons with high rate of fire will not get much out of this.
+
+Rejuvenate
+This is good if you play with a coordinated team where you know you'll be consistently healed, it's especially good if you are frontline or damage.
+
+
+Veteran
+This item is useful if you can protect yourself with a shield and block effectively or have a way to go invisible or become invulnerable.
+Utility Items
+Chronos
+This is an amazing item, at level 1 it doesn't do too much and you'll only notice it if your abilities have 10 second cooldowns or longer, but at level 3 you can use abilities so much with the right loadout. It is an absolute must for any support champion.
+
+Master Riding
+It's nice to get to the objective before your enemy, but goes to waste if they just buy it as well or even upgrade it further. Chronos and Morale Boost are just better.
+
+Morale Boost
+This is a very good item for champions with ultimates that can turn the game around. It will boost how fast your ultimate charges and grants a bonus when killing enemies or healing allies.
+
+Nimble
+This does NOT stack with any movement based cards and does not extend the range of dashes and other movement options. With that in mind this generally feels ineffective unless you are a groundbased flanker like Maeve or Skye.

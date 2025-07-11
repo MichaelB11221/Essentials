@@ -1,0 +1,49 @@
+Intel® Processor Identification Utility 8.0.43
+TimeStamp : 2025/07/11 04:39:05
+
+PROCESSOR INFORMATION -
+Processor Name : 12th Gen Intel(R) Core(TM) i5-12400
+CPUID : 90675
+Processor Code Name : Alder Lake
+Vertical Segment : Desktop
+Engineering Sample : No
+This is a Genuine Intel® Processor
+Reported CPU Speed : 4.40 GHz
+System Bus Speed : 100 MHz
+Processor Graphics : Add-in graphics
+Total Active Cores : 6
+Total Active Threads : 12
+L3 Cache : 18 MB
+
+ADVANCED CPU TECHNOLOGIES -
+Intel® AI Boost : No
+Intel® 64 Architecture : Yes
+Intel® Virtualization Technology : Yes
+Intel® Hyper-Threading Technology : Yes
+Intel® AES-NI : Yes
+Intel® Advanced Vector Extensions : Yes
+Enhanced Intel® SpeedStep Technology : No
+Intel® SSE : Yes
+Intel® SSE2 : Yes
+Intel® SSE3 : Yes
+Intel® SSE4 : Yes
+Execute Disable Bit : Yes
+Enhanced Halt State : No
+
+CPU ESSENTIALS -
+Processor Number: i5-12400
+Processor Marketing Status : Launched
+Processor Launch Date : Q1'22
+Processor Datasheet URL : https://www.intel.com/content/www/us/en/collections/content-type/datasheets-and-specification-updates.html?f:@stm_10385_en=Processors;Intel®+Core™+Processors;12th+Generation+Intel®+Core™+i5+Processors
+Processor Specification URL : https://ark.intel.com/content/www/us/en/ark/products/134586/intel-core-i512400-processor-18m-cache-up-to-4-40-ghz.html
+Processor Compatibility URL : https://compatibleproducts.intel.com/ProductDetails?activeModule=Desktop%20Processors&pcsr_num=i5-12400
+Processor Warranty URL : https://supporttickets.intel.com/s/warrantyinfo?language=en_US
+Processor Support URL : https://www.intel.com/content/www/us/en/support/products/873/processors.html
+
+SYSTEM INFORMATION -
+Operating System : Windows 11 Pro - 24H2
+System Model : MS-7E06
+System Manufacturer : Micro-Star International Co., Ltd.
+Motherboard Manufacturer : Micro-Star International Co., Ltd.
+Motherboard Product : PRO Z790-P DDR4 (MS-7E06)
+BIOS Version/Date : American Megatrends International, LLC. 1.G1, 05/13/2025

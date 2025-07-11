@@ -1,0 +1,4 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\HiRezStudios\Paladins]
+"UserDataDir"="C:\\Users\\baden\\AppData\\Local\\HiRez Studios\\HiRezGames\\Paladins"

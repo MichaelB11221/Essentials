@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+; For all files
+[HKEY_CLASSES_ROOT\*\shell\Open in Sandbox]
+@="Open in Windows Sandbox"
+"Icon"="C:\\Windows\\System32\\WindowsSandbox.exe"
+
+[HKEY_CLASSES_ROOT\*\shell\Open in Sandbox\command]
+@="powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -Command \"Start-Process 'C:\\Windows\\System32\\WindowsSandbox.exe' -ArgumentList '-ConfigFile','D:\\Windows\\Virtual&EmulationShareDrivesDONTMOVEORCHANGE\\Config\\WindowsSandboxConfig.wsb'\""
+
+; For all folders
+[HKEY_CLASSES_ROOT\Directory\shell\Open in Sandbox]
+@="Open in Windows Sandbox"
+"Icon"="C:\\Windows\\System32\\WindowsSandbox.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Open in Sandbox\command]
+@="powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -Command \"Start-Process 'C:\\Windows\\System32\\WindowsSandbox.exe' -ArgumentList '-ConfigFile','D:\\Windows\\Virtual&EmulationShareDrivesDONTMOVEORCHANGE\\Config\\WindowsSandboxConfig.wsb'\""

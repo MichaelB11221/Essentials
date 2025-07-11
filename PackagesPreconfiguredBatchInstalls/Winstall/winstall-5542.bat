@@ -1,0 +1,1 @@
+winget install Microsoft.WindowsTerminal TechPowerUp.NVCleanstall Microsoft.PowerShell.Preview Alex313031.Thorium.AVX2 stnkl.EverythingToolbar Valve.Steam 7zip.7zip

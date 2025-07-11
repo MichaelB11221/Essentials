@@ -1,0 +1,1 @@
+BCDEdit /BootSequence {current}

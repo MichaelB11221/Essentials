@@ -1,0 +1,388 @@
+{
+  "WPFInstall": [
+    "WPFInstallprocesslasso",
+    "WPFInstallmpchc",
+    "WPFInstallhwinfo",
+    "WPFInstallsdio",
+    "WPFInstallcrystaldiskmark",
+    "WPFInstallklite",
+    "WPFInstallbulkcrapuninstaller",
+    "WPFInstallautoruns",
+    "WPFInstallsandboxie",
+    "WPFInstallOVirtualBox",
+    "WPFInstallfoobar",
+    "WPFInstallflow",
+    "WPFInstallkdenlive",
+    "WPFInstallJoyToKey",
+    "WPFInstalldotnet7",
+    "WPFInstallcopyq",
+    "WPFInstallautohotkey",
+    "WPFInstallnushell",
+    "WPFInstalljdownloader",
+    "WPFInstallglazewm",
+    "WPFInstallfastfetch",
+    "WPFInstallfancontrol",
+    "WPFInstalldotnet5",
+    "WPFInstalldotnet3",
+    "WPFInstalleartrumpet",
+    "WPFInstallpowertoys",
+    "WPFInstalllockhunter",
+    "WPFInstallhwmonitor",
+    "WPFInstallduplicati",
+    "WPFInstalldotnet8",
+    "WPFInstallnilesoftShell",
+    "WPFInstallmsiafterburner",
+    "WPFInstallesearch",
+    "WPFInstallvc2015_64",
+    "WPFInstallwinrar",
+    "WPFInstallqbittorrent",
+    "WPFInstalltwinkletray",
+    "WPFInstallsmplayer",
+    "WPFInstallprismlauncher",
+    "WPFInstallEqualizerAPO",
+    "WPFInstallopenrgb",
+    "WPFInstallffmpeg",
+    "WPFInstallForceAutoHDR",
+    "WPFInstallglaryutilities",
+    "WPFInstallfxsound",
+    "WPFInstallnuget",
+    "WPFInstalltotalcommander",
+    "WPFInstallddu",
+    "WPFInstallfzf",
+    "WPFInstallttaskbar",
+    "WPFInstallxemu",
+    "WPFInstallnvclean",
+    "WPFInstalllocalsend",
+    "WPFInstallbulkrenameutility",
+    "WPFInstallAdvancedRenamer",
+    "WPFInstallModernFlyouts",
+    "WPFInstallBorderlessGaming",
+    "WPFInstallrainmeter",
+    "WPFInstalldotnet6",
+    "WPFInstallkdeconnect",
+    "WPFInstalldotnet9",
+    "WPFInstallneofetchwin",
+    "WPFInstallShotcut",
+    "WPFInstallxdm",
+    "WPFInstallopenshell",
+    "WPFInstallgpuz",
+    "WPFInstalllinkshellextension",
+    "WPFInstallsuperf4",
+    "WPFInstallcrystaldiskinfo",
+    "WPFInstallwingetui",
+    "WPFInstall7zip",
+    "WPFInstallgsudo"
+  ],
+  "WPFTweaks": [
+    "WPFTweaksRestorePoint",
+    "WPFTweaksDVR",
+    "WPFTweaksIPv46",
+    "WPFTweaksDisableFSO",
+    "WPFTweaksRecallOff",
+    "WPFTweaksTeredo",
+    "WPFTweaksEndTaskOnTaskbar",
+    "WPFTweaksRightClickMenu",
+    "WPFTweaksRemoveOnedrive",
+    "WPFTweaksLoc",
+    "WPFTweaksDisableLMS1",
+    "WPFTweaksDisableBGapps",
+    "WPFTweaksDeleteTempFiles",
+    "WPFTweaksWifi",
+    "WPFTweaksConsumerFeatures",
+    "WPFTweaksHome",
+    "WPFTweaksDisableExplorerAutoDiscovery",
+    "WPFTweaksServices",
+    "WPFTweaksTele"
+  ],
+  "Install": [
+    {
+      "winget": "BitSum.ProcessLasso",
+      "choco": "plasso"
+    },
+    {
+      "winget": "clsid2.mpc-hc",
+      "choco": "mpc-hc-clsid2"
+    },
+    {
+      "winget": "REALiX.HWiNFO",
+      "choco": "hwinfo"
+    },
+    {
+      "winget": "GlennDelahoy.SnappyDriverInstallerOrigin",
+      "choco": "sdio"
+    },
+    {
+      "winget": "CrystalDewWorld.CrystalDiskMark",
+      "choco": "crystaldiskmark"
+    },
+    {
+      "winget": "CodecGuide.K-LiteCodecPack.Standard",
+      "choco": "k-litecodecpack-standard"
+    },
+    {
+      "winget": "Klocman.BulkCrapUninstaller",
+      "choco": "bulk-crap-uninstaller"
+    },
+    {
+      "winget": "Microsoft.Sysinternals.Autoruns",
+      "choco": "autoruns"
+    },
+    {
+      "winget": "Sandboxie.Plus",
+      "choco": "sandboxie"
+    },
+    {
+      "winget": "Oracle.VirtualBox",
+      "choco": "virtualbox"
+    },
+    {
+      "winget": "PeterPawlowski.foobar2000",
+      "choco": "foobar2000"
+    },
+    {
+      "winget": "Flow-Launcher.Flow-Launcher",
+      "choco": "flow-launcher"
+    },
+    {
+      "winget": "KDE.Kdenlive",
+      "choco": "kdenlive"
+    },
+    {
+      "winget": "JTKsoftware.JoyToKey",
+      "choco": "joytokey"
+    },
+    {
+      "winget": "Microsoft.DotNet.DesktopRuntime.7",
+      "choco": "dotnet-7.0-runtime"
+    },
+    {
+      "winget": "hluk.CopyQ",
+      "choco": "copyq"
+    },
+    {
+      "winget": "AutoHotkey.AutoHotkey",
+      "choco": "autohotkey"
+    },
+    {
+      "winget": "Nushell.Nushell",
+      "choco": "nushell"
+    },
+    {
+      "winget": "AppWork.JDownloader",
+      "choco": "jdownloader"
+    },
+    {
+      "winget": "glzr-io.glazewm",
+      "choco": "na"
+    },
+    {
+      "winget": "Fastfetch-cli.Fastfetch",
+      "choco": "na"
+    },
+    {
+      "winget": "Rem0o.FanControl",
+      "choco": "na"
+    },
+    {
+      "winget": "Microsoft.DotNet.DesktopRuntime.5",
+      "choco": "dotnet-5.0-runtime"
+    },
+    {
+      "winget": "Microsoft.DotNet.DesktopRuntime.3_1",
+      "choco": "dotnetcore3-desktop-runtime"
+    },
+    {
+      "winget": "File-New-Project.EarTrumpet",
+      "choco": "eartrumpet"
+    },
+    {
+      "winget": "Microsoft.PowerToys",
+      "choco": "powertoys"
+    },
+    {
+      "winget": "CrystalRich.LockHunter",
+      "choco": "lockhunter"
+    },
+    {
+      "winget": "CPUID.HWMonitor",
+      "choco": "hwmonitor"
+    },
+    {
+      "winget": "Duplicati.Duplicati",
+      "choco": "duplicati"
+    },
+    {
+      "winget": "Microsoft.DotNet.DesktopRuntime.8",
+      "choco": "dotnet-8.0-runtime"
+    },
+    {
+      "winget": "Nilesoft.Shell",
+      "choco": "nilesoft-shell"
+    },
+    {
+      "winget": "Guru3D.Afterburner",
+      "choco": "msiafterburner"
+    },
+    {
+      "winget": "voidtools.Everything",
+      "choco": "everything"
+    },
+    {
+      "winget": "Microsoft.VCRedist.2015+.x64",
+      "choco": "na"
+    },
+    {
+      "winget": "RARLab.WinRAR",
+      "choco": "winrar"
+    },
+    {
+      "winget": "qBittorrent.qBittorrent",
+      "choco": "qbittorrent"
+    },
+    {
+      "winget": "xanderfrangos.twinkletray",
+      "choco": "twinkle-tray"
+    },
+    {
+      "winget": "SMPlayer.SMPlayer",
+      "choco": "smplayer"
+    },
+    {
+      "winget": "PrismLauncher.PrismLauncher",
+      "choco": "prismlauncher"
+    },
+    {
+      "winget": "na",
+      "choco": "equalizerapo"
+    },
+    {
+      "winget": "CalcProgrammer1.OpenRGB",
+      "choco": "openrgb"
+    },
+    {
+      "winget": "Gyan.FFmpeg",
+      "choco": "ffmpeg-full"
+    },
+    {
+      "winget": "ForceAutoHDR.7gxycn08",
+      "choco": "na"
+    },
+    {
+      "winget": "Glarysoft.GlaryUtilities",
+      "choco": "glaryutilities-free"
+    },
+    {
+      "winget": "FxSound.FxSound",
+      "choco": "fxsound"
+    },
+    {
+      "winget": "Microsoft.NuGet",
+      "choco": "nuget.commandline"
+    },
+    {
+      "winget": "Ghisler.TotalCommander",
+      "choco": "TotalCommander"
+    },
+    {
+      "winget": "Wagnardsoft.DisplayDriverUninstaller",
+      "choco": "ddu"
+    },
+    {
+      "winget": "junegunn.fzf",
+      "choco": "fzf"
+    },
+    {
+      "winget": "9PF4KZ2VN4W9",
+      "choco": "translucenttb"
+    },
+    {
+      "winget": "xemu-project.xemu",
+      "choco": "na"
+    },
+    {
+      "winget": "TechPowerUp.NVCleanstall",
+      "choco": "na"
+    },
+    {
+      "winget": "LocalSend.LocalSend",
+      "choco": "localsend.install"
+    },
+    {
+      "winget": "TGRMNSoftware.BulkRenameUtility",
+      "choco": "bulkrenameutility"
+    },
+    {
+      "winget": "HulubuluSoftware.AdvancedRenamer",
+      "choco": "advanced-renamer"
+    },
+    {
+      "winget": "ModernFlyouts.ModernFlyouts",
+      "choco": "na"
+    },
+    {
+      "winget": "Codeusa.BorderlessGaming",
+      "choco": "borderlessgaming"
+    },
+    {
+      "winget": "Rainmeter.Rainmeter",
+      "choco": "na"
+    },
+    {
+      "winget": "Microsoft.DotNet.DesktopRuntime.6",
+      "choco": "dotnet-6.0-runtime"
+    },
+    {
+      "winget": "KDE.KDEConnect",
+      "choco": "kdeconnect-kde"
+    },
+    {
+      "winget": "Microsoft.DotNet.DesktopRuntime.9",
+      "choco": "dotnet-9.0-runtime"
+    },
+    {
+      "winget": "nepnep.neofetch-win",
+      "choco": "na"
+    },
+    {
+      "winget": "Meltytech.Shotcut",
+      "choco": "na"
+    },
+    {
+      "winget": "subhra74.XtremeDownloadManager",
+      "choco": "xdm"
+    },
+    {
+      "winget": "Open-Shell.Open-Shell-Menu",
+      "choco": "open-shell"
+    },
+    {
+      "winget": "TechPowerUp.GPU-Z",
+      "choco": "gpu-z"
+    },
+    {
+      "winget": "HermannSchinagl.LinkShellExtension",
+      "choco": "linkshellextension"
+    },
+    {
+      "winget": "StefanSundin.Superf4",
+      "choco": "superf4"
+    },
+    {
+      "winget": "CrystalDewWorld.CrystalDiskInfo",
+      "choco": "crystaldiskinfo"
+    },
+    {
+      "winget": "MartiCliment.UniGetUI",
+      "choco": "wingetui"
+    },
+    {
+      "winget": "7zip.7zip",
+      "choco": "7zip"
+    },
+    {
+      "winget": "gerardog.gsudo",
+      "choco": "gsudo"
+    }
+  ],
+  "WPFFeature": []
+}

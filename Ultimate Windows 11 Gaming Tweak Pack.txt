@@ -1,0 +1,187 @@
+Ultimate Windows 11 Gaming Tweak Pack (Paladins Edition)
+========================================================
+
+WARNING:
+--------
+Some tweaks are advanced and may break features or require a Windows reinstall to undo.
+Always back up your system or create a restore point before proceeding.
+
+--------------------------------------------------------
+1. Input Latency Tweaks
+--------------------------------------------------------
+1.1. Disable Mouse Acceleration:
+  - REG:
+    [HKEY_CURRENT_USER\Control Panel\Mouse]
+    "MouseSpeed"="0"
+    "MouseThreshold1"="0"
+    "MouseThreshold2"="0"
+
+1.2. Set USB Polling Rate (Advanced):
+  - Use "USB Mouse Rate Adjuster" to set 1000Hz polling.
+
+1.3. Disable Power Saving on USB Devices:
+  - Device Manager > Universal Serial Bus controllers > Right-click each Root Hub > Properties > Power Management > Uncheck "Allow the computer to turn off this device".
+
+--------------------------------------------------------
+2. Network Tweaks
+--------------------------------------------------------
+2.1. Disable Power Saving on Network Adapter:
+  - Device Manager > Network adapters > Properties > Power Management > Uncheck "Allow the computer to turn off this device".
+
+2.2. Optimize Network Stack (CMD as Admin):
+  netsh int tcp set global autotuninglevel=normal
+  netsh int tcp set global rss=enabled
+  netsh int tcp set global chimney=enabled
+  netsh int tcp set global ecncapability=disabled
+  netsh int tcp set global timestamps=disabled
+  netsh int tcp set global dca=enabled
+
+2.3. Disable Large Send Offload (LSO):
+  - Device Manager > Network Adapter > Advanced > Large Send Offload v2 (IPv4/IPv6) > Disabled
+
+2.4. Set DNS to Cloudflare/Google:
+  - Network & Internet > Adapter Options > Properties > IPv4 > Use 1.1.1.1 and 8.8.8.8
+
+--------------------------------------------------------
+3. Visual Tweaks
+--------------------------------------------------------
+3.1. Set Windows for Best Performance:
+  - System > Advanced System Settings > Performance > Adjust for best performance
+
+3.2. Disable Transparency & Animations:
+  - Settings > Personalization > Colors > Transparency effects: Off
+  - Settings > Accessibility > Visual effects > Animation effects: Off
+
+3.3. Disable Game Bar & DVR:
+  - REG:
+    [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR]
+    "AppCaptureEnabled"=dword:00000000
+    "GameDVR_Enabled"=dword:00000000
+    [HKEY_CURRENT_USER\System\GameConfigStore]
+    "GameDVR_Enabled"=dword:00000000
+
+3.4. Set Paladins to High Performance in Graphics Settings:
+  - Settings > System > Display > Graphics > Browse for Paladins.exe > Set to High Performance
+
+--------------------------------------------------------
+4. System Bloat & Background Services
+--------------------------------------------------------
+4.1. Remove Bloatware (PowerShell as Admin):
+  Get-AppxPackage *xbox* | Remove-AppxPackage
+  Get-AppxPackage *bing* | Remove-AppxPackage
+  Get-AppxPackage *zune* | Remove-AppxPackage
+  Get-AppxPackage *solitaire* | Remove-AppxPackage
+  Get-AppxPackage *people* | Remove-AppxPackage
+
+4.2. Disable Unnecessary Startup Apps:
+  - Task Manager > Startup > Disable all non-essential apps
+
+4.3. Disable Background Apps:
+  - Settings > Apps > Apps & features > Background apps: Off
+
+--------------------------------------------------------
+5. Power & CPU Tweaks
+--------------------------------------------------------
+5.1. Set Power Plan to Ultimate Performance:
+  powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
+  powercfg -setactive e9a42b02-d5df-448d-aa00-03f14749eb61
+
+5.2. Disable CPU Parking (Advanced):
+  - Use "ParkControl" to unpark all cores.
+
+--------------------------------------------------------
+6. Advanced Registry Tweaks
+--------------------------------------------------------
+6.1. Disable Nagle’s Algorithm (Lower Latency):
+  - Registry: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{your-adapter-guid}
+    Add DWORDs: TcpAckFrequency=1, TCPNoDelay=1, TcpDelAckTicks=0
+
+6.2. Increase System Responsiveness:
+  - REG:
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
+    "NetworkThrottlingIndex"=dword:ffffffff
+    "SystemResponsiveness"=dword:00000000
+
+6.3. Disable Windows Defender (Risky):
+  - REG:
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender]
+    "DisableAntiSpyware"=dword:00000001
+
+--------------------------------------------------------
+7. GPU Tweaks
+--------------------------------------------------------
+7.1. NVIDIA Control Panel:
+  - Set "Low Latency Mode" to Ultra
+  - Set "Power Management Mode" to Prefer Maximum Performance
+  - Set "Texture Filtering - Quality" to High Performance
+  - Disable V-Sync (unless you need it for tearing)
+
+7.2. AMD Radeon Settings:
+  - Set "Radeon Anti-Lag" to On
+  - Set "Texture Filtering Quality" to Performance
+  - Disable V-Sync
+
+--------------------------------------------------------
+8. Audio Latency Tweaks
+--------------------------------------------------------
+8.1. Set Audio to 16-bit, 44100Hz:
+  - Sound Settings > Device Properties > Advanced > 16 bit, 44100 Hz
+
+8.2. Disable Audio Enhancements:
+  - Sound Settings > Device Properties > Enhancements > Disable all
+
+--------------------------------------------------------
+9. Miscellaneous & Super-Advanced
+--------------------------------------------------------
+9.1. Disable HPET (High Precision Event Timer):
+  bcdedit /deletevalue useplatformclock
+
+9.2. Disable Core Isolation/Memory Integrity:
+  - Windows Security > Device Security > Core Isolation > Memory Integrity: Off
+
+9.3. Disable Windows Update (Risky):
+  - REG:
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
+    "NoAutoUpdate"=dword:00000001
+
+9.4. Disable IPv6 (if not needed):
+  - Network Adapter Properties > Uncheck "Internet Protocol Version 6 (TCP/IPv6)"
+
+9.5. Set System Timer Resolution (Advanced):
+  - Use "TimerResolution" to set to 0.5ms
+
+--------------------------------------------------------
+10. Paladins-Specific
+--------------------------------------------------------
+10.1. Launch Options:
+  - In Steam/Epic, set launch options:
+    -USEALLAVAILABLECORES -nomansky -novsync -dx11
+
+10.2. Config Tweaks:
+  - Edit DefaultEngine.ini and DefaultSystemSettings.ini for max FPS, lowest latency.
+
+--------------------------------------------------------
+11. Super-Advanced (Risky/Optional)
+--------------------------------------------------------
+11.1. Strip Windows Services (Use with Caution):
+  - Run services.msc and set these to Manual/Disabled:
+    - Print Spooler
+    - Windows Search
+    - Superfetch (SysMain)
+    - Windows Update
+    - Remote Registry
+    - Connected User Experiences and Telemetry
+
+11.2. Use Debloat Scripts:
+  - Chris Titus Tech Windows Utility: https://github.com/ChrisTitusTech/winutil
+  - ThisIsWin11: https://github.com/builtbybel/ThisIsWin11
+
+--------------------------------------------------------
+12. Final Steps
+--------------------------------------------------------
+- Reboot after applying all tweaks.
+- Test system/game stability.
+- If issues arise, revert the last tweak(s) applied.
+
+--------------------------------------------------------
+Save this file and apply tweaks as needed. For scripts/registry, copy into .bat/.reg files and run as Administrator.

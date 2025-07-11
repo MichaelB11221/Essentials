@@ -1,0 +1,25 @@
+1. Run Powershell With Admin Rights.
+
+2. Copy And Paste Below Script. (If iwr version is not working or giving errors use irm method, no difference between methods only length of script).
+
+3. Wait For GUI To Launch.
+
+
+Methods :
+
+METHOD 1 : USING iwr (Invoke Web Request)
+
+Stable Version :
+iwr christitus.com/win | iex
+
+Dev Version :
+iwr christitus.com/windev | iex
+
+METHOD 2 : USING irm 
+
+Stable Version :
+irm "https://christitus.com/win" | iex
+
+Dev Version :
+irm "https://christitus.com/windev" | iex
+

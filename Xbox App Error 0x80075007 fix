@@ -1,0 +1,48 @@
+Carlos-MSFT
+Microsoft Agent | Moderator
+Replied on March 6, 2024
+Report abuse
+Hello gbrandel,
+
+Welcome to the Microsoft community.
+
+Please repair your system with the system repair command first.
+
+Please type "cmd" in the start search bar and run the command prompt as administrator.
+
+Enter and execute the following commands (please enter one after the other)
+
+DISM /Online /Cleanup-Image /ScanHealth
+DISM /Online /Cleanup-Image /CheckHealth
+DISM /Online /Cleanup-image /RestoreHealth
+SFC /scannow
+Please try the methods below to see if you can solve the problem.
+
+1. Search for Windows PowerShell in the Start search bar and run it in administrator mode.
+
+2. Type the following command and press Enter to execute it:
+
+get-appxpackage Microsoft.GamingServices | remove-AppxPackage -allusers
+3. Type the following command again and execute it:
+
+start ms-windows-store://pdp/?productid=9MWPM2CQNLHN
+4. Tap windows+R and type wsreset.
+
+5. Wait for the app store to open, tap Library in the bottom left corner, and then check if the game service can be installed successfully.
+
+6. Once done, go to Xbox's Installation Manager again to see if it works.
+
+Also please create a new local account and see if you have this problem in the new account.
+
+Create a local user or administrator account in Windows - Microsoft Support
+
+ 
+
+If there's anything that's not clear, don't hesitate to let me know.
+
+Sincerely
+
+Carlos - MSFT | Microsoft Community Support Specialisto
+
+Reply 
+25 people found this reply helpful · Was this reply helpful?Yes No

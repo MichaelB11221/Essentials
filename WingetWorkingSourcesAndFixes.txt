@@ -1,0 +1,33 @@
+Winget source -
+https://cdn.winget.microsoft.com/cache
+
+MSStore source -
+https://storeedgefd.dsx.mp.microsoft.com/v9.0
+
+Check :
+Run winget source list
+
+Correct Output :
+PS C:\Users\WDAGUtilityAccount\Downloads> winget source list
+Name    Argument                                      Explicit
+--------------------------------------------------------------
+msstore https://storeedgefd.dsx.mp.microsoft.com/v9.0 false
+winget  https://cdn.winget.microsoft.com/cache        false
+
+If error :
+winget source update --name winget gives a CANCELLED response.
+
+run
+winget source reset --force
+winget source remove --name winget
+winget source add --name winget --arg https://cdn.winget.microsoft.com/cache
+winget source update
+
+If error :
+An unexpected error occurred while executing the command:
+0x8051100f : unknown error / Error code: 0x80073d02
+
+run
+Get-AppxPackage -allusers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register “$($_.InstallLocation)\\AppXManifest.xml”}
+winget install -s msstore --id 9NBLGGH4NNS1 --force
+winget source add --name winget --arg https://cdn.winget.microsoft.com/cache

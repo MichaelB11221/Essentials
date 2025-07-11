@@ -1,0 +1,2 @@
+winget settings --enable BypassCertificatePinningForMicrosoftStore
+

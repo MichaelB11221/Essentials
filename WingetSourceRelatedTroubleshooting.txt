@@ -1,0 +1,5 @@
+Failed to update sources
+
+Run the PowerShell as Administrator
+
+Add-AppxPackage -path "C:\YOURPATH TO THE TEAMS MSIX FILE\MSTeams-x64.msix"

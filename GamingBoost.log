@@ -1,0 +1,19 @@
+2025-06-22 15:55:20Z | Applying gaming tweaks...
+2025-06-22 15:55:20Z | Killed process: MicrosoftEdgeUpdate [5068]
+2025-06-22 15:55:21Z | Stopped service: wsearch
+2025-06-22 15:55:22Z | Stopped service: SysMain
+2025-06-22 15:55:22Z | Failed to stop service: Fax
+2025-06-22 15:55:22Z | Failed to stop service: PrintSpooler
+2025-06-22 15:55:23Z | Reverting tweaks...
+2025-06-22 15:55:24Z | Restarted service: wsearch
+2025-06-22 15:55:24Z | Restarted service: SysMain
+2025-06-22 15:55:24Z | Failed to restart service: DiagTrack
+2025-06-22 15:55:24Z | Failed to restart service: Fax
+2025-06-22 15:55:24Z | Failed to restart service: PrintSpooler
+2025-06-22 15:55:26Z | Failed to restart service: RetailDemo
+2025-06-22 15:55:26Z | Applying gaming tweaks...
+2025-06-22 15:55:27Z | Stopped service: wsearch
+2025-06-22 15:55:27Z | Stopped service: SysMain
+2025-06-22 15:55:27Z | Failed to stop service: Fax
+2025-06-22 15:55:27Z | Failed to stop service: PrintSpooler
+2025-06-22 15:55:30Z | Script terminated by user.

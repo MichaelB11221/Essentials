@@ -1,0 +1,1 @@
+winget install valve.steam Microsoft.VisualStudioCode.Insiders EpicGames.EpicGamesLauncher librehardwaremonitor.librehardwaremonitor Logitech.GHUB SteelSeries GG voidtools.everything TechPowerUp.NVCleanstall Wagnardsoft.DisplayDriverUninstaller Alex313031.Thorium.AVX2 HydraLauncher.Hydra undergroundwires.privacy.sexy TeamSophia.SophiApp winaero.tweaker BitSum.ProcessLasso.Beta 

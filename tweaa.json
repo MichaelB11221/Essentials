@@ -1,0 +1,218 @@
+{
+  "WPFInstall": [
+    "WPFInstallqbittorrent",
+    "WPFInstalldockerdesktop",
+    "WPFInstallwiztree",
+    "WPFInstalldotnet5",
+    "WPFInstallcrystaldiskmark",
+    "WPFInstallnotepadplus",
+    "WPFInstalllivelywallpaper",
+    "WPFInstalleaapp",
+    "WPFInstallpython3",
+    "WPFInstalltailscale",
+    "WPFInstall7zip",
+    "WPFInstallprocessmonitor",
+    "WPFInstallnodejs",
+    "WPFInstallEqualizerAPO",
+    "WPFInstallintelpresentmon",
+    "WPFInstalldotnet8",
+    "WPFInstallklite",
+    "WPFInstallFork",
+    "WPFInstallgpuz",
+    "WPFInstallxdm",
+    "WPFInstallOVirtualBox",
+    "WPFInstallvagrant",
+    "WPFInstallepicgames",
+    "WPFInstallubisoft",
+    "WPFInstallautoruns",
+    "WPFInstallneovim",
+    "WPFInstalldotnet3",
+    "WPFInstallnuget",
+    "WPFInstallgsudo",
+    "WPFInstallmpchc",
+    "WPFInstallpowertoys",
+    "WPFInstalldotnet9",
+    "WPFInstallvisualstudio",
+    "WPFInstalllockhunter",
+    "WPFInstallvc2015_64",
+    "WPFInstallgithubcli",
+    "WPFInstalldotnet7",
+    "WPFInstallkdeconnect",
+    "WPFInstallbulkcrapuninstaller",
+    "WPFInstalldotnet6"
+  ],
+  "Install": [
+    {
+      "winget": "qBittorrent.qBittorrent",
+      "choco": "qbittorrent"
+    },
+    {
+      "winget": "Docker.DockerDesktop",
+      "choco": "docker-desktop"
+    },
+    {
+      "winget": "AntibodySoftware.WizTree",
+      "choco": "wiztree"
+    },
+    {
+      "winget": "Microsoft.DotNet.DesktopRuntime.5",
+      "choco": "dotnet-5.0-runtime"
+    },
+    {
+      "winget": "CrystalDewWorld.CrystalDiskMark",
+      "choco": "crystaldiskmark"
+    },
+    {
+      "winget": "Notepad++.Notepad++",
+      "choco": "notepadplusplus"
+    },
+    {
+      "winget": "rocksdanister.LivelyWallpaper",
+      "choco": "lively"
+    },
+    {
+      "winget": "ElectronicArts.EADesktop",
+      "choco": "ea-app"
+    },
+    {
+      "winget": "Python.Python.3.12",
+      "choco": "python"
+    },
+    {
+      "winget": "tailscale.tailscale",
+      "choco": "tailscale"
+    },
+    {
+      "winget": "7zip.7zip",
+      "choco": "7zip"
+    },
+    {
+      "winget": "Microsoft.Sysinternals.ProcessMonitor",
+      "choco": "procexp"
+    },
+    {
+      "winget": "OpenJS.NodeJS",
+      "choco": "nodejs"
+    },
+    {
+      "winget": "na",
+      "choco": "equalizerapo"
+    },
+    {
+      "winget": "Intel.PresentMon.Beta",
+      "choco": "na"
+    },
+    {
+      "winget": "Microsoft.DotNet.DesktopRuntime.8",
+      "choco": "dotnet-8.0-runtime"
+    },
+    {
+      "winget": "CodecGuide.K-LiteCodecPack.Standard",
+      "choco": "k-litecodecpack-standard"
+    },
+    {
+      "winget": "Fork.Fork",
+      "choco": "git-fork"
+    },
+    {
+      "winget": "TechPowerUp.GPU-Z",
+      "choco": "gpu-z"
+    },
+    {
+      "winget": "subhra74.XtremeDownloadManager",
+      "choco": "xdm"
+    },
+    {
+      "winget": "Oracle.VirtualBox",
+      "choco": "virtualbox"
+    },
+    {
+      "winget": "Hashicorp.Vagrant",
+      "choco": "vagrant"
+    },
+    {
+      "winget": "EpicGames.EpicGamesLauncher",
+      "choco": "epicgameslauncher"
+    },
+    {
+      "winget": "Ubisoft.Connect",
+      "choco": "ubisoft-connect"
+    },
+    {
+      "winget": "Microsoft.Sysinternals.Autoruns",
+      "choco": "autoruns"
+    },
+    {
+      "winget": "Neovim.Neovim",
+      "choco": "neovim"
+    },
+    {
+      "winget": "Microsoft.DotNet.DesktopRuntime.3_1",
+      "choco": "dotnetcore3-desktop-runtime"
+    },
+    {
+      "winget": "Microsoft.NuGet",
+      "choco": "nuget.commandline"
+    },
+    {
+      "winget": "gerardog.gsudo",
+      "choco": "gsudo"
+    },
+    {
+      "winget": "clsid2.mpc-hc",
+      "choco": "mpc-hc-clsid2"
+    },
+    {
+      "winget": "Microsoft.PowerToys",
+      "choco": "powertoys"
+    },
+    {
+      "winget": "Microsoft.DotNet.DesktopRuntime.9",
+      "choco": "dotnet-9.0-runtime"
+    },
+    {
+      "winget": "Microsoft.VisualStudio.2022.Community",
+      "choco": "visualstudio2022community"
+    },
+    {
+      "winget": "CrystalRich.LockHunter",
+      "choco": "lockhunter"
+    },
+    {
+      "winget": "Microsoft.VCRedist.2015+.x64",
+      "choco": "na"
+    },
+    {
+      "winget": "GitHub.cli",
+      "choco": "git;gh"
+    },
+    {
+      "winget": "Microsoft.DotNet.DesktopRuntime.7",
+      "choco": "dotnet-7.0-runtime"
+    },
+    {
+      "winget": "KDE.KDEConnect",
+      "choco": "kdeconnect-kde"
+    },
+    {
+      "winget": "Klocman.BulkCrapUninstaller",
+      "choco": "bulk-crap-uninstaller"
+    },
+    {
+      "winget": "Microsoft.DotNet.DesktopRuntime.6",
+      "choco": "dotnet-6.0-runtime"
+    }
+  ],
+  "WPFTweaks": [
+    "WPFTweaksLoc",
+    "WPFTweaksWifi",
+    "WPFTweaksDisableFSO",
+    "WPFTweaksHiber",
+    "WPFTweaksDisableBGapps",
+    "WPFTweaksHome",
+    "WPFTweaksDeleteTempFiles",
+    "WPFTweaksDVR",
+    "WPFTweaksRightClickMenu"
+  ],
+  "WPFFeature": []
+}

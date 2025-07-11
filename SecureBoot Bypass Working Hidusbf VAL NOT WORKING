@@ -1,0 +1,43 @@
+METHOD 1 
+1. Run command to add UpgradedSystem REG key - 
+reg add HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\CI\Policy /v UpgradedSystem /t REG_DWORD /d 0 /f
+
+2. Test if it solved the issue 
+If issue prevails run this command first
+reg query HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\CI\Policy /v UpgradedSystem
+3. It should return a value of REG_DWORD 0x0
+4. If that does indeed return the value try restarting your PC annd try again.
+
+IF ALL ELSE FAILS CONTINUE BELOW
+
+
+IMPORTANT DONT SKIP Delete Reg Key created UpgradedSystem
+reg delete HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\CI\Policy /v UpgradedSystem
+
+METHOD 2 			
+1. Run command to add WhqlSettings REG key - 
+reg add HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\CI\Policy /v WhqlSettings /t REG_DWORD /d 1 /f
+
+2. Run reg query HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\CI\Policy /v WhqlSettings
+
+If it returns the value 
+
+WhqlSettings REG_DWORD 0x1 it means its ready 
+
+3. See if issue is solved 
+
+4. if not restart PC and try again
+
+5. If not run the command VERYIMPORTANT
+reg delete HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\CI\Policy /v WhqlSettings
+
+METHOD 3 :
+
+JYS GEVOK CHAMP BOOT NA BIOS EN SIT SECURE BOOT MAAR AAN 
+
+
+'LMAAOOOOOOOO
+
+
+30MINS WASTED IDIOT
+

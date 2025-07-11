@@ -1,0 +1,24 @@
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName HypervisorPlatform -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName WindowsSandbox -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName "DirectPlay" -NoRestart
+Get-WindowsOptionalFeature -Online | Where-Object {$_.FeatureName -like "Microsoft-Windows-Legacy*"} | Enable-WindowsOptionalFeature -Online -NoRestart
+Add-WindowsFeature WAS-Process-Model, WAS-Config-APIs, WAS-Net-TCP-Port-Sharing, WAS-Net-MSMQ-Activation, WAS-Net-Named-Pipe-Activation, WAS-Net-TCP-Activation, WAS-HTTP-Activation -IncludeAllSubFeature -NoRestart
+
+Disable-WindowsOptionalFeature -Online -FeatureName "Microsoft-Windows-Printing-PrintToPDFServices-Package" -NoRestart
+Disable-WindowsOptionalFeature -Online -FeatureName "SMB1Protocol" -NoRestart
+Set-SmbServerConfiguration -EnableSMB2Protocol $false -NoRestart
+Disable-WindowsOptionalFeature -FeatureName "Printing-PrintServices" -Online -Remove -NoRestart
+Disable-WindowsOptionalFeature -FeatureName "XPS-Services" -Online -Remove -NoRestart
+Disable-WindowsOptionalFeature -FeatureName "RDC" -Online -Remove -NoRestart
+
+
+Get-Service -Name "Name"
+Start-Service -Name "Name"
+
+Enable-WindowsOptionalFeature -FeatureName "Containers-DisposableClientVM" -All -Online
+Enable-WindowsOptionalFeature -FeatureName "VirtualMachinePlatform" -All -Online
+Enable-WindowsOptionalFeature -FeatureName "Hyper-V" -All -Online 
+Enable-WindowsOptionalFeature -FeatureName "Containers-DisposableClientVM" -All -Online -NoRestart

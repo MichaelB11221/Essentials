@@ -1,0 +1,18 @@
+Shutdown Command Info -
+
+Command : Shutdown /parameter
+
+List of basic parameters (Immediate Shutdown)
+shutdown /s	Shut down PC immediately
+shutdown /a	Abort shutdown
+shutdown /r	Restart computer
+shutdown /l	Log off current user
+shutdown /f	Force shutdown: forces the running application to close (the user receives no advance warning)
+
+List of advanced parameters (Set a variable to determine shutdown behaviour)
+shutdown /parameter /t ## The /t parameter adds a timer value before shutting down local pc - ie. /t (value in numbers) / /t 60 (Sets timer of 60 seconds before shutdown)
+EXAMPLE :
+shutdown /s /t 20	Shuts down local PC in 20 seconds (time specification with “/t-Parameter” is freely selectable)
+
+shutdown /r /m \\Computername	Restarts a remote PC (preparation may be required: assignment of access rights for remote control, change of Firewall settings)
+shutdown /r /m \\Computername /c “comment”	Restarts a remotely-operated PC (the text behind the “/c-Parameter” appears in a blue text box on the screen of the addressed target PC)

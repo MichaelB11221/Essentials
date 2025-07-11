@@ -1,0 +1,12 @@
+1. Delete GamingServices
+Get-AppxPackage Microsoft.GamingServices | Remove-AppxPackage -allusers
+
+2. Delete Accosiated Registry Keys (Not always required - Might return error "can not delete because could not be found) - If so continue to next step
+Remove-Item -Path "HKLM:\System\CurrentControlSet\Services\GamingServices" -recurse
+Remove-Item -Path "HKLM:\System\CurrentControlSet\Services\GamingServicesNet" -recurse
+
+3. Reinstall GamingServices
+start ms-windows-store://pdp/?productid=9MWPM2CQNLHN 
+Click Get and wait for install
+
+Try running Xbox App again.

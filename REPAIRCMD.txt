@@ -1,0 +1,71 @@
+sfc /scannow
+
+DISM /Online /Cleanup-Image /StartComponentCleanup
+DISM /Online /Cleanup-Image /RestoreHealth
+DISM /Online /Cleanup-Image /ScanHealth
+DISM /Online /Cleanup-Image /CheckHealth
+
+DISM /online /Cleanup-Image /StartComponentCleanup /ResetBase
+
+CHKDSK C: /F /V /R /offlinescanandfix
+
+
+{
+
+Windows Update
+
+CHKDSK C: /F /V /R /offlinescanandfix
+
+Windows Defender Full System Virus Scan
+Windows Defender Boot-time Virus Scan
+
+Disc Cleanup
+Ccleaner Cleanup
+
+Windows Update
+CHKDSK C: /F /V /R /offlinescanandfix
+Windows Update
+
+}
+
+of tasks that I execute for the sake of maintenance, by the following sequence:
+
+{
+
+Windows Update
+
+CHKDSK C: /F /V /R /offlinescanandfix
+
+DISM /Online /Cleanup-Image /StartComponentCleanup
+DISM /Online /Cleanup-Image /CheckHealth
+DISM /Online /Cleanup-Image /ScanHealth
+DISM /Online /Cleanup-Image /RestoreHealth
+SFC /scannow
+
+Windows Defender Full System Virus Scan
+Windows Defender Boot-time Virus Scan
+
+Disc Cleanup
+Ccleaner CleanupC:\WINDOWS\system32>chkdsk /b /v
+
+
+
+Windows Update
+CHKDSK C: /F /V /R /offlinescanandfix
+Windows Update
+
+
+}
+
+DISM /Online /Cleanup-Image /RestoreHealth /Source:M:\sources\sxs
+
+
+
+
+
+
+
+chkdsk /b /v
+
+
+
